@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#todo {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: #4044C9;
+}
+
+#appbar {
+  color: white;
+  flex: 0.08;
+  display: flex;
+  text-align: center;
+  justify-content: start;
+  align-items: center;
+  padding: 2px 25px;
+}
+
+.appbar_todolist {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#body {
+  background-color: #fafafa;
+  flex: 1;
+  border-top-left-radius: 40px;
+  display: grid;
+  grid-template-columns: 0.3fr 1fr;
+}
+
+#category {
+  background-color: white;
+  margin: 30px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+#content {
+  background-color: white;
+  margin: 30px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
